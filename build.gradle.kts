@@ -37,3 +37,8 @@ val test by tasks.getting(Test::class) {
     // Use TestNG for unit tests
     useTestNG()
 }
+
+
+//tasks.withType(Test) {
+//    enableAssertions = true
+//}
